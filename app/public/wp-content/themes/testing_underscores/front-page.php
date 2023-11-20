@@ -14,9 +14,6 @@
 
 get_header();
 ?>
-	<h1>F page</h1>
-	<h1>F page</h1>
-
 	<main id="primary" class="site-main">
 
 		<?php

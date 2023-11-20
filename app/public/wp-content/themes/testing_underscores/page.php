@@ -14,7 +14,6 @@
 
 get_header();
 ?>
-	123
 	<main id="primary" class="site-main">
 
 		<?php
