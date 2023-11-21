@@ -11536,4 +11536,8 @@ textarea.form-control-lg {
   .announcement-bar {
     display: none;
   }
+}
+
+.site-header__logo__size {
+  max-width: 150px !important;
 }/*# sourceMappingURL=main.css.map */

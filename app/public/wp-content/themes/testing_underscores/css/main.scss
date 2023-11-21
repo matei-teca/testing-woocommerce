@@ -1,5 +1,8 @@
-// Variables
+// Approach and comments as in bootstrap customize docs
+// https://getbootstrap.com/docs/5.2/customize/sass/
 
+
+// Default variable overrides
 $primary: rgb(130, 23, 130);
 $gray: rgb(92, 29, 29);
 
@@ -8,20 +11,19 @@ $theme-colors: (
     "gray": $gray
 );
 
-// Create custom map
-
+// Create your own map
 $custom-color : (
     "icon-background": rgb(130, 23, 130, 0.2)
 );
 
-// Merge maps 
+// Merge the maps
 $theme-colors: map-merge($theme-colors, $custom-color);
 
 @import "./bootstrap/scss/bootstrap";
 
+
+
 // Add additional custom code here
-
-
 
 /************** HEADER **************/
 
@@ -58,4 +60,12 @@ $theme-colors: map-merge($theme-colors, $custom-color);
     display: none;
   }
 
+}
+
+.site-header {
+    &__logo {
+        &__size {
+            max-width: 150px !important;
+        }
+    }
 }
