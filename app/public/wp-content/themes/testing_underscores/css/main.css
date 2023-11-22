@@ -11538,6 +11538,39 @@ textarea.form-control-lg {
   }
 }
 
+.site-header {
+  /* Main Menu */
+}
 .site-header__logo__size {
   max-width: 150px !important;
+}
+.site-header .aws-search-field {
+  font-size: 0.9rem;
+  padding-left: 1.4rem;
+  border-radius: 20px 0px 0px 0px !important;
+}
+.site-header .aws-search-btn {
+  border-radius: 0px 20px 20px 0px !important;
+}
+.site-header .main-navigation {
+  font-weight: 200;
+}
+.site-header .main-navigation .current-menu-item {
+  background-color: rgb(149, 33, 149);
+}
+.site-header .main-navigation a {
+  text-transform: uppercase;
+  color: var(--bs-white);
+  padding: 0.6rem 1.4rem;
+}
+.site-header .main-navigation a:hover {
+  background-color: rgb(149, 33, 149);
+}
+.site-header .main-navigation .menu-toggle {
+  background-color: rgb(130, 23, 130);
+  color: #fff;
+  border: none;
+}
+.site-header .main-navigation .sub-menu li {
+  background-color: rgb(130, 23, 130);
 }/*# sourceMappingURL=main.css.map */
