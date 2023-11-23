@@ -32,3 +32,4 @@ app/public/wp-content/*
 # specify (see the commented-out example for a hint on how to do this.)
 # wp-content/themes/*
 # !wp-content/themes/my-theme/
+app/public/wp-content/themes/testing_underscores/MateiWorkSpace2023.code-workspace

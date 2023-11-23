@@ -5776,7 +5776,7 @@ textarea.form-control-lg {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 15%;
+  width: 9%;
   padding: 0;
   color: #fff;
   text-align: center;
@@ -5843,9 +5843,9 @@ textarea.form-control-lg {
   display: flex;
   justify-content: center;
   padding: 0;
-  margin-right: 15%;
+  margin-right: 9%;
   margin-bottom: 1rem;
-  margin-left: 15%;
+  margin-left: 9%;
 }
 .carousel-indicators [data-bs-target] {
   box-sizing: content-box;
@@ -8409,39 +8409,11 @@ textarea.form-control-lg {
 }
 
 .rounded {
-  border-radius: var(--bs-border-radius) !important;
-}
-
-.rounded-0 {
-  border-radius: 0 !important;
-}
-
-.rounded-1 {
-  border-radius: var(--bs-border-radius-sm) !important;
-}
-
-.rounded-2 {
-  border-radius: var(--bs-border-radius) !important;
-}
-
-.rounded-3 {
-  border-radius: var(--bs-border-radius-lg) !important;
-}
-
-.rounded-4 {
-  border-radius: var(--bs-border-radius-xl) !important;
-}
-
-.rounded-5 {
-  border-radius: var(--bs-border-radius-xxl) !important;
+  border-radius: 1rem !important;
 }
 
 .rounded-circle {
   border-radius: 50% !important;
-}
-
-.rounded-pill {
-  border-radius: var(--bs-border-radius-pill) !important;
 }
 
 .rounded-top {
@@ -11540,9 +11512,16 @@ textarea.form-control-lg {
 
 .site-header {
   /* Main Menu */
+  /************* FRONT PAGE *************/
+  /************** SLIDER **************/
 }
-.site-header__logo__size {
-  max-width: 150px !important;
+.site-header__logo {
+  transform: scale(0.6);
+  max-height: 100px !important;
+}
+.site-header__logo img {
+  border-radius: 100% !important;
+  overflow: hidden;
 }
 .site-header .aws-search-field {
   font-size: 0.9rem;

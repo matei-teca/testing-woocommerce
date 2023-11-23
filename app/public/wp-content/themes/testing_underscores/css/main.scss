@@ -5,6 +5,8 @@
 // Default variable overrides
 $primary: rgb(130, 23, 130);
 $gray: rgb(92, 29, 29);
+$carousel-control-width: 9%;
+
 
 $theme-colors: (
     "primary": $primary,
@@ -16,6 +18,19 @@ $custom-color : ("icon-background": rgb(130, 23, 130, 0.2));
 
 // Merge the maps
 $theme-colors: map-merge($theme-colors, $custom-color);
+
+
+$utilities: (
+  "rounded": (
+    property: border-radius,
+    class: rounded,
+    values: (
+      null: 1rem,
+      circle: 50%
+    )
+  )
+);
+
 
 @import "./bootstrap/scss/bootstrap";
 
@@ -60,10 +75,24 @@ $theme-colors: map-merge($theme-colors, $custom-color);
 
 }
 
+// header {
+
+//     .container, .row {
+//         max-height: 100px !important;
+//     }
+// }
+
 .site-header {
+
     &__logo {
-        &__size {
-            max-width: 150px !important;
+        transform: scale(0.6);
+        max-height: 100px !important;
+
+
+        img {
+            border-radius: 100% !important;
+            overflow: hidden;
+
         }
     }
 
@@ -111,5 +140,15 @@ $theme-colors: map-merge($theme-colors, $custom-color);
         }
 
     }
+
+
+    /************* FRONT PAGE *************/
+
+    /************** SLIDER **************/
+
+    
+
+
+
 
 }

@@ -1,5 +1,5 @@
-<?php
 
+<?php
 /**
  * The header for our theme
  *
@@ -76,9 +76,7 @@
 				<div class="row align-items-center">
 
 					<div class="col site-header__logo d-flex justify-content-center justify-content-md-start">
-						<div class="site-header__logo__size">
 							<?php the_custom_logo(); ?>
-						</div>
 					</div>
 
 					<div class="col-sm-12 col-md-4">
