@@ -52,6 +52,60 @@ get_header();
 		</section>
 
 
+		<section class="categories pt-5 pb-5">
+			<div class="container">
+
+				<h1 class="text-center pt-5">Categories</h1>
+				<p class="text-center">We offer a number of high quality toys to help keep<br> your pets healthy and spoiled!</p>
+			
+
+			<div class="row pt-5">
+
+				<div class="categories__col col-md-4 col-sm-12 mb-3">
+					<a href="#" class="col-md-12 w-100 h-100 d-inline-block p-3 position-relative rounded overflow-hidden">
+						<img class="position-absolute top-0 bottom-0 end-0 start-0" src="<?php echo get_template_directory_uri();?>/img/categories/toys.jpg" alt="..." loading="lazy">
+						<h2 class="position-absolute bottom-0 start-0 end-0 p-2 mb-0 text-center bg-primary-opacity-high text-white">Toys</h2>
+					</a>
+				</div>
+
+				<div class="categories__col col-md-4 col-sm-12 mb-3">
+					<a href="#" class="col-md-12 w-100 h-100 d-inline-block p-3 position-relative rounded overflow-hidden">
+						<img class="position-absolute top-0 bottom-0 end-0 start-0" src="<?php echo get_template_directory_uri();?>/img/categories/food.jpg" alt="..." loading="lazy">
+						<h2 class="position-absolute bottom-0 start-0 end-0 p-2 mb-0 text-center bg-primary-opacity-high text-white">Food</h2>
+					</a>
+				</div>
+
+				<div class="categories__col col-md-4 col-sm-12 mb-3">
+					<a href="#" class="col-md-12 w-100 h-100 d-inline-block p-3 position-relative rounded overflow-hidden">
+						<img class="position-absolute top-0 bottom-0 end-0 start-0" src="<?php echo get_template_directory_uri();?>/img/categories/care.jpg" alt="..." loading="lazy">
+						<h2 class="position-absolute bottom-0 start-0 end-0 p-2 mb-0 text-center bg-primary-opacity-high text-white">Care</h2>
+					</a>
+				</div>
+
+			</div>
+
+			<div class="row mb-3">
+
+				<div class="categories__col col-md-4 col-sm-12 mb-3">
+					<a href="#" class="col-md-12 w-100 h-100 d-inline-block p-3 position-relative rounded overflow-hidden">
+						<img class="position-absolute top-0 bottom-0 end-0 start-0" src="<?php echo get_template_directory_uri();?>/img/categories/accessories.jpg" alt="..." loading="lazy">
+						<h2 class="position-absolute bottom-0 start-0 end-0 p-2 mb-0 text-center bg-primary-opacity-high text-white">Accessories</h2>
+					</a>
+				</div>
+
+				<div class="categories__col sale col-md-8 col-sm-12 mb-3">
+					<a href="#" class="col-md-12 w-100 h-100 d-inline-block p-3 position-relative rounded overflow-hidden">
+						<div class="position-absolute top-0 bottom-0 end-0 start-0" style="z-index: 1; background-color: rgba(167, 4, 4, 0.8)"></div>
+						<img class="position-absolute top-0 bottom-0 end-0 start-0" src="<?php echo get_template_directory_uri();?>/img/categories/special-offers.jpg" alt="..." loading="lazy"> 
+						<h2 class="position-absolute top-50 start-0 end-0 mb-0 text-center text-white" style="z-index: 2;">Special Offers</h2>
+			
+					</a>
+				</div>
+			</div>
+			</div>
+
+		</section>
+
 
 	</main><!-- #main -->
 

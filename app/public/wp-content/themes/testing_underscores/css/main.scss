@@ -4,14 +4,18 @@
 
 // Default variable overrides
 $primary: rgb(130, 23, 130);
+$primary-opacity-high: rgba(130, 23, 130, 0.8);
 $gray: rgb(92, 29, 29);
-$carousel-control-width: 9%;
 
+$carousel-control-width: 9%;
 
 $theme-colors: (
     "primary": $primary,
+    "primary-opacity-high": $primary-opacity-high,
     "gray": $gray
 );
+
+
 
 // Create your own map
 $custom-color : ("icon-background": rgb(130, 23, 130, 0.2));
@@ -21,14 +25,10 @@ $theme-colors: map-merge($theme-colors, $custom-color);
 
 
 $utilities: (
-  "rounded": (
-    property: border-radius,
-    class: rounded,
-    values: (
-      null: 1rem,
-      circle: 50%
-    )
-  )
+    "rounded": (property: border-radius,
+        class: rounded,
+        values: (null: 1rem,
+            circle: 50%))
 );
 
 
@@ -141,12 +141,32 @@ $utilities: (
 
     }
 
-
-    
-
-    
+}
 
 
+/************** CATEGORIES **************/
+.categories {
+    background-color: #F9F9F9;
 
+    &__col {
+        height: 212px;
+
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+
+    }
+
+    .special{
+        background-color: var(--bs-primary-opacity-high);
+        border: 10px solid var(--bs-primary);
+    }
+
+    @include media-breakpoint-up(md) {
+        .categories__col {
+            height: 336px;
+        }
+    }
 
 }
