@@ -95,7 +95,7 @@ get_header();
 
 				<div class="categories__col sale col-md-8 col-sm-12 mb-3">
 					<a href="#" class="col-md-12 w-100 h-100 d-inline-block p-3 position-relative rounded overflow-hidden">
-						<div class="position-absolute top-0 bottom-0 end-0 start-0" style="z-index: 1; background-color: rgba(167, 4, 4, 0.8)"></div>
+						<div class="special position-absolute top-0 bottom-0 end-0 start-0" style="z-index: 1;"></div>
 						<img class="position-absolute top-0 bottom-0 end-0 start-0" src="<?php echo get_template_directory_uri();?>/img/categories/special-offers.jpg" alt="..." loading="lazy"> 
 						<h2 class="position-absolute top-50 start-0 end-0 mb-0 text-center text-white" style="z-index: 2;">Special Offers</h2>
 			
@@ -106,6 +106,14 @@ get_header();
 
 		</section>
 
+		<section class="container pt-5 special-offers">
+			<h1 class="text-center pt-5">Special Offers</h1>
+			<p class="text-center">We offer a number of high quality toys to help keep<br> your pets healthy and spoiled!</p>
+
+			<div class="pt-5 pb-5">
+				<?php echo do_shortcode( '[sale_products columns=4 limit=4]' ); ?>
+			</div>
+		</section>
 
 	</main><!-- #main -->
 

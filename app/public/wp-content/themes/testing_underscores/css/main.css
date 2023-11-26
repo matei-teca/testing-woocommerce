@@ -11658,6 +11658,10 @@ textarea.form-control-lg {
   -o-object-fit: cover;
      object-fit: cover;
 }
+.categories .special {
+  background-color: var(--bs-primary-opacity-high);
+  border: 10px solid var(--bs-primary);
+}
 @media (min-width: 768px) {
   .categories .categories__col {
     height: 336px;
