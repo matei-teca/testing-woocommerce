@@ -257,3 +257,9 @@ function custom_footer_widget_three() {
 	register_sidebar( $args );
 }
 add_action( 'widgets_init', 'custom_footer_widget_three');
+
+
+/**
+ * WooCommerce
+*/
+add_theme_support('woocommerce');
