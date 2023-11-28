@@ -11572,6 +11572,15 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+/************** QUICK FIXES **************/
+.site-main, .site-footer-section1 {
+  padding-inline: 5% !important;
+}
+
+.site-footer {
+  margin-bottom: -3rem !important;
+}
+
 /************** HEADER **************/
 .announcement-bar {
   font-size: 0.8rem;

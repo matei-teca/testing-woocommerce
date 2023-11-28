@@ -13,8 +13,7 @@
 ?>
 
 <footer id="colophon" class="site-footer">
-
-	<div class="bg-primary text-white pt-5 pb-5">
+	<div class="site-footer-section1 bg-primary text-white pt-5 pb-5">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6 col-md-2">
@@ -44,7 +43,7 @@
 			</div>
 		</div>
 	</div>
-
+	</div>
 </footer>
 </div><!-- #page -->
 
