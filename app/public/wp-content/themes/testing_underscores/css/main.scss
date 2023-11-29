@@ -7,6 +7,7 @@ $primary: rgb(130, 23, 130);
 $primary-opacity-high: rgba(130, 23, 130, 0.8);
 $gray: rgb(92, 29, 29);
 
+
 $carousel-control-width: 9%;
 
 $theme-colors: (
@@ -41,8 +42,14 @@ $utilities: (
 
 /************** QUICK FIXES **************/
 
-.site-main, .site-footer-section1 {
+.site-main, .site-footer-section1, .site-footer-section2 {
     padding-inline: 5% !important;
+}
+
+@include media-breakpoint-up(md) {
+    .site-main, .site-footer-section1, .site-footer-section2 {
+        padding-inline: 7.5% !important;
+    }
 }
 
 .site-footer {
@@ -207,17 +214,19 @@ $utilities: (
 
 }
 
-.popular-products,
-.special-offers {
+// NOT WORKING TO OVVERIDE WOCOMMERCE CSS FROM HERE
+// .popular-products,
+// .special-offers {
 
-    .add_to_cart_button {
-        display: block !important;
-        text-align: center;
-    }
+//     .add_to_cart_button {
+//         background-color: black;
+//         display: block !important;
+//         text-align: center;
+//     }
 
-    .attachment-woocommerce_thumbnail {
-        border-radius: 20px;
-        overflow: hidden;
-    }
+//     .attachment-woocommerce_thumbnail {
+//         border-radius: 20px;
+//         overflow: hidden;
+//     }
 
-}
+// }

@@ -11573,10 +11573,15 @@ textarea.form-control-lg {
   }
 }
 /************** QUICK FIXES **************/
-.site-main, .site-footer-section1 {
+.site-main, .site-footer-section1, .site-footer-section2 {
   padding-inline: 5% !important;
 }
 
+@media (min-width: 768px) {
+  .site-main, .site-footer-section1, .site-footer-section2 {
+    padding-inline: 7.5% !important;
+  }
+}
 .site-footer {
   margin-bottom: -4rem !important;
 }
@@ -11691,15 +11696,4 @@ textarea.form-control-lg {
 }
 .site-footer .menu a:hover {
   text-decoration: underline;
-}
-
-.popular-products .add_to_cart_button,
-.special-offers .add_to_cart_button {
-  display: block !important;
-  text-align: center;
-}
-.popular-products .attachment-woocommerce_thumbnail,
-.special-offers .attachment-woocommerce_thumbnail {
-  border-radius: 20px;
-  overflow: hidden;
 }/*# sourceMappingURL=main.css.map */
