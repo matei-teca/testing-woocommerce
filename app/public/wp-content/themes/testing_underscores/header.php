@@ -47,7 +47,7 @@
 
 					</div>
 
-					<div class="col-md-8 d-flex justify-content-end">
+					<div class="col-md-7 d-flex justify-content-end">
 						<ul class="announcement-bar__list">
 							<li>
 								<i class="bi bi-truck rounded-circle"></i>FREE EU SHIPPING
@@ -71,15 +71,16 @@
 
 		<header id="masthead" class="site-header">
 
-			<div class="container pt-2 pb-2">
+			<div class="site-central-header container pt-3 pb-3">
 
 				<div class="row align-items-center">
 
 					<div class="col site-header__logo d-flex justify-content-center justify-content-md-start">
-							<?php the_custom_logo(); ?>
+						<?php the_custom_logo(); ?>
 					</div>
 
-					<div class="col-sm-12 col-md-4">
+
+					<div class="search-container col-sm-12 col-md-5">
 						<?php if (function_exists('aws_get_search_form')) {
 							aws_get_search_form();
 						} ?>
