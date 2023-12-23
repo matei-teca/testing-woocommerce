@@ -180,7 +180,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 
 <?php do_action( 'woocommerce_before_cart_collaterals' ); ?>
 
-<!-- <h1>TEST</h1> -->
+<h1>TEST</h1>
 
 <div class="cart-collaterals">
 	<?php
