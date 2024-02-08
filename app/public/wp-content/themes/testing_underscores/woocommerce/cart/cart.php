@@ -23,6 +23,8 @@ do_action( 'woocommerce_before_cart' ); ?>
 	<?php do_action( 'woocommerce_before_cart_table' ); ?>
 
 	<table class="shop_table shop_table_responsive cart woocommerce-cart-form__contents" cellspacing="0">
+		<!-- <div style="background-color: red; font-size:large; z-index: 5">TEST</div> -->
+
 		<thead>
 			<tr>
 				<th class="product-remove"><span class="screen-reader-text"><?php esc_html_e( 'Remove item', 'woocommerce' ); ?></span></th>
@@ -180,7 +182,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 
 <?php do_action( 'woocommerce_before_cart_collaterals' ); ?>
 
-<h1>TEST</h1>
+<!-- <h1>TEST</h1> -->
 
 <div class="cart-collaterals">
 	<?php
