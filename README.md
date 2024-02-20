@@ -1,6 +1,7 @@
 # testing-woocommerce
 
-I started to build a project with underscores, bootstrap and woocommerce in order to test its features
+I started to build a Wordpress theme project with underscores, bootstrap and woocommerce in order to study it and test its features.
+By following this tutorial https://www.youtube.com/watch?v=8uYSLxJbPEY&t=11046s
 
 ## The initial commit is: </br>
 Project created with https://localwp.com/ installed </br>
